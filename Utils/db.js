@@ -52,11 +52,11 @@ class DBClient {
       if (response.ok) {
         return result;
       } else {
-        console.error('Error posting data:', result.error);
+        console.error('Error posting data: ', result);
         return { error: result.error };
       }
     } catch (error) {
-      console.error('Error posting data:', error);
+      console.error('Error posting data in catch block: ', error);
       return { error: error.message };
     }
   }
