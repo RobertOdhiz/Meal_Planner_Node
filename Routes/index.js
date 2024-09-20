@@ -2,7 +2,7 @@ const express = require('express');
 const AppController = require('../Controllers/AppController');
 const BudgetController = require('../Controllers/BudgetController');
 const MealsController = require('../Controllers/MealsController');
-const PreferencesController = require('../Controllers/PreferEncesController');
+const PreferencesController = require('../Controllers/PreferencesController');
 
 const router = express.Router();
 
